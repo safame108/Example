@@ -1,0 +1,17 @@
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\BuisnessLogic.dll
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\BuisnessLogic.pdb
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\BuisnessObject.dll
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\DataAccess.dll
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\EntityFramework.dll
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\BuisnessObject.pdb
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\DataAccess.pdb
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\DataAccess.dll.config
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\EntityFramework.xml
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\obj\Debug\BuisnessLogic.csprojAssemblyReference.cache
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\obj\Debug\BuisnessLogic.csproj.CoreCompileInputs.cache
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\obj\Debug\BuisnessLogic.csproj.CopyComplete
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\obj\Debug\BuisnessLogic.dll
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\obj\Debug\BuisnessLogic.pdb
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\BuisnessLogic.dll.config
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessLogic\bin\Debug\EntityFramework.SqlServer.xml

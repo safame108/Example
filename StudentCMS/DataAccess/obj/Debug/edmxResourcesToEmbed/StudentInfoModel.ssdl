@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentPortalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'StudentPortal.dbo.CourseRegistered' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="CourseRegistered">
+          <Property Name="Reg_no" Type="varchar" MaxLength="5" />
+          <Property Name="Code" Type="varchar" MaxLength="5" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'StudentPortal.dbo.Result' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Result">
+          <Property Name="Reg_no" Type="varchar" MaxLength="5" />
+          <Property Name="Code" Type="varchar" MaxLength="5" />
+          <Property Name="Score" Type="int" />
+          <Property Name="Status" Type="varchar" MaxLength="4" />
+        </EntityType>-->
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Reg_no" />
+    </Key>
+    <Property Name="Reg_no" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="10" />
+    <Property Name="LastName" Type="varchar" MaxLength="10" />
+    <Property Name="Depart" Type="varchar" MaxLength="4" />
+    <Property Name="Semester" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <!--Errors Found During Generation:
+error 6004: The table 'StudentPortal.dbo.CourseRegistered' is referenced by a relationship, but cannot be found.
+        <Association Name="FK__CourseReg__Reg_n__276EDEB3" />-->
+  <!--Errors Found During Generation:
+error 6004: The table 'StudentPortal.dbo.CourseRegistered' is referenced by a relationship, but cannot be found.
+        <Association Name="FK__CourseRegi__Code__286302EC" />-->
+  <!--Errors Found During Generation:
+error 6004: The table 'StudentPortal.dbo.Result' is referenced by a relationship, but cannot be found.
+        <Association Name="FK__Result__Code__2B3F6F97" />-->
+  <!--Errors Found During Generation:
+error 6004: The table 'StudentPortal.dbo.Result' is referenced by a relationship, but cannot be found.
+        <Association Name="FK__Result__Reg_no__2A4B4B5E" />-->
+  <EntityContainer Name="StudentPortalModelStoreContainer">
+    <EntitySet Name="Course" EntityType="Self.Course" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,6 @@
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessObject\bin\Debug\BuisnessObject.dll
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessObject\bin\Debug\BuisnessObject.pdb
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessObject\obj\Debug\BuisnessObject.csprojAssemblyReference.cache
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessObject\obj\Debug\BuisnessObject.csproj.CoreCompileInputs.cache
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessObject\obj\Debug\BuisnessObject.dll
+C:\Users\PAKISTAN LAPTOP\source\repos\StudentCMS\BuisnessObject\obj\Debug\BuisnessObject.pdb

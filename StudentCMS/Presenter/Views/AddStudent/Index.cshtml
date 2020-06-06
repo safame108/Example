@@ -1,0 +1,58 @@
+﻿@model BuisnessObject.StudentOB
+@{
+    ViewBag.Title = "AddStudent";
+}
+
+@using (Html.BeginForm("Index", "AddStudent", FormMethod.Post))
+{
+  <div class="container">
+        <div class="row">
+            <div class="form-group">
+                @Html.LabelFor(model => model.RegisterNumber, new { @class = "control-label" })
+                @Html.TextAreaFor(model => model.RegisterNumber, new { maxlenght = 5, @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.RegisterNumber, null, new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstName, new { @class = "control-label" })
+                @Html.TextAreaFor(model => model.FirstName, new { maxlenght = 10, @class = "form-control" })          
+                @Html.ValidationMessageFor(model => model.FirstName, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                @Html.LabelFor(model => model.LastName, new { @class = "control-label" })
+                @Html.TextAreaFor(model => model.LastName, new { maxlenght = 10, @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.LastName, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Department, new { @class = "control-label" })
+                @Html.TextAreaFor(model => model.Department, new { maxlenght = 4, @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Department, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Semester, new { @class = "control-label" })
+                @Html.TextAreaFor(model => model.Semester, new { maxlenght = 1, @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Semester, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <input type="submit" value="save" name="Proceed" class="btn btn-primary"  />
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
